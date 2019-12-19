@@ -2,12 +2,14 @@ package ec.com.pablorcruh.app.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
-public class ProductoServiceApplication {
+public class ItemServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProductoServiceApplication.class, args);
+        SpringApplication.run(ItemServiceApplication.class, args);
     }
 
 }
