@@ -3,14 +3,12 @@ package ec.com.pablorcruh.app.item.service;
 import ec.com.pablorcruh.app.item.clientes.ProductoClienteRest;
 import ec.com.pablorcruh.app.item.models.Item;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service
-@Primary
+@Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
 
 
