@@ -14,4 +14,6 @@ public class Producto {
     private Double precio;
 
     private Date createAt;
+
+    private Integer port;
 }
